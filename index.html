@@ -17,6 +17,43 @@
           </ul>
       </nav>
       </div>
+      <div class="screen">
+        <input type="text" id="screen" size="30" name="display">
+    </div>
+    <table cellspacing="20">
+      <tr>
+          <td><input type="reset" value="AC"  class="button"></td>
+          <td>
+              <input type="button" value="Clear" onclick="display.value= display.value.toString().slice(0,-1)" class="button">
+          </td>
+          <td><input type="button" value="%" onclick="display.value+='%'" class="button"></td>
+          <td><input type="button" value="/" onclick="display.value+='/'" class="button"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="7" onclick="display.value+='7'" class="button"></td>
+          <td><input type="button" value="8" onclick="display.value+='8'" class="button"></td>
+          <td><input type="button" value="9" onclick="display.value+='9'" class="button"></td>
+          <td><input type="button" value="*" onclick="display.value+='*'" class="button"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="4" onclick="display.value+='4'" class="button"></td>
+          <td><input type="button" value="5" onclick="display.value+='5'" class="button"></td>
+          <td><input type="button" value="6" onclick="display.value+='6'" class="button"></td>
+          <td><input type="button" value="-" onclick="display.value+='-'" class="button"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="1" onclick="display.value+='1'" class="button"></td>
+          <td><input type="button" value="2" onclick="display.value+='2'" class="button"></td>
+          <td><input type="button" value="3" onclick="display.value+='3'" class="button"></td>
+          <td><input type="button" value="+" onclick="display.value+='+'" class="button"></td>
+      </tr>
+      <tr>
+          <td><input type="button" value="00" onclick="display.value+='00'" class="button"></td>
+          <td><input type="button" value="0" onclick="display.value+='0'" class="button"></td>
+          <td><input type="button" value="." onclick="display.value+='.'" class="button"></td>
+          <td><input type="button" value="=" onclick="display.value= eval(display.value)" class="button"></td>
+      </tr>
+  </table>
   </div>
 </body>
 </html>
