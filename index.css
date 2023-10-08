@@ -20,7 +20,7 @@ body{
 .navbar{
   position: fixed;
   top: 1em; 
-  right: 26vw; 
+  right: 29vw; 
   display:flex;
   justify-content:center;
   align-items:center;  
@@ -62,14 +62,14 @@ nav ul li{
  margin-top: 10vw;
 } */
 #home{
-  width: 2em;
-  height: 4em;
+  width: 1em;
+  height: 1.4em;
 }
 #category{
-  width: 2em;
-  height: 4em;
+  width: 1em;
+  height: 1.4em;
 }
 #currency{
-  width: 2em;
-  height: 4em;
+  width: 1em;
+  height: 1.4em;
 }
